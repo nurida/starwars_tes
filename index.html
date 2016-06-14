@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/sw.css" />
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/jquery.blockUI.js"></script>
+		<script type="text/javascript" src="js/controller/PlanetController.js"></script>		
+		<script type="text/javascript" src="js/view/PlanetView.js"></script>
+		<script type="text/javascript" src="js/model/PlanetModel.js"></script>
+		<script type="text/javascript" src="js/model/planet.json.js"></script>
+		<script type="text/javascript" src="js/controller/PeopleController.js"></script>		
+		<script type="text/javascript" src="js/view/PeopleView.js"></script>
+		<script type="text/javascript" src="js/model/PeopleModel.js"></script>
+		<script type="text/javascript" src="js/sw.js"></script>
+
+	</head>
+	<body class="opening hide-UI view-2D zoom-large data-close controls-close">
+    <div id="navbar">
+      <img src="img/title.png">
+    </div>
+    <div id="data">
+		<div id="controls">
+		  <label>
+			<span>Name :</span>
+		  </label>
+		  <label>
+			<span>Diameter :</span>
+		  </label>
+		  <label>
+			<span>Climate :</span>
+		  </label>
+		  <label>
+			<span>Terrain :</span>
+		  </label>
+		  <label>
+			<span>Population :</span>
+		  </label>
+		  <label>
+			<span class="show_resident">Click to show residents</span>
+		  </label>
+		</div>
+    </div>    
+    <div id="universe" class="scale-stretched">
+      <div id="galaxy">
+        <div id="solar-system" class="">          
+          <div id="sun">
+            <dl class="infos">
+              <dt>Sun</dt>
+              <dd><span></span></dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>	
+   </body>
+</html>
